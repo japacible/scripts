@@ -28,7 +28,7 @@ def mail(to, subject, text):
    mailServer.sendmail(gmail_user, to, msg.as_string())
    mailServer.close()
 
-for x in range(1, 601):
+for x in range(0, 5):
     mail("HANDLE@DOMAIN.com",
-       "SUBJECT: %d" % (x),
-       u"(´･ω･`)")
+       "Greetings!",
+       "How do you do?")
